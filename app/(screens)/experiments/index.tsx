@@ -9,6 +9,7 @@ export default function ExperimentsScreen() {
       </View>
       
       <View style={styles.tilesContainer}>
+        {/* This tile now redirects to the breadboard UI */}
         <Link
           href={{
             pathname: "./experiments/semiconductor-characteristics",
@@ -31,7 +32,6 @@ export default function ExperimentsScreen() {
   );
 }
 
-// CSS Styles (React Native StyleSheet)
 const styles = StyleSheet.create({
   container: {
     flex: 1,
